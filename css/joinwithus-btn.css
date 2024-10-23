@@ -1,0 +1,30 @@
+.gototop {
+    display: flex;
+    align-items: center; /* Để căn chỉnh các nút theo chiều dọc */
+    gap: 20px; /* Khoảng cách giữa các nút */
+}
+
+.js-gotop,
+.js-join-us {
+    display: inline-block;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.js-gotop {
+    border-radius: 50%; /* Nút Go to Top tròn */
+}
+
+.js-join-us {
+    border-radius: 5px; /* Nút Join With Us hình chữ nhật */
+    padding: 10px 20px; /* Tạo thêm không gian cho văn bản */
+}
+
+.js-gotop:hover,
+.js-join-us:hover {
+    background-color: #555; /* Đổi màu nền khi di chuột qua */
+}
