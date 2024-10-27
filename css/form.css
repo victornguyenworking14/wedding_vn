@@ -47,6 +47,7 @@
   }
   #fh5co-form{
 	background: rgba(0, 0, 0, 0.04);
+	z-index: 3;
   }
 
 #form-wish form, #success .content{

@@ -185,14 +185,13 @@
 
 		<div id="fh5co-form" class="fh5co-form">
 			<div class="container">
+				<div class="row"></div>
 					<div class="fh5co-heading animate-box">
 					<h2 class="text-center">Điền form này nhé</h2>
 					<div id="form-join">
 						<form id="form1sheet"
 							action="https://script.google.com/macros/s/AKfycby0RmIgYJPKAvruONn_Xh4ZqSRyOyNym98W8C07kywkbHcdsMKRdoqLLEJL-TgYxJJI/exec"
 							method="POST">
-							<button type="button" id="close-form-join" class="btn-close-form-join">&times;</button>
-							<!-- Close button -->
 							<p class="text-center title"></p>
 							<div class="form-group">
 								<p>Tên bạn là:</p>
@@ -294,26 +293,6 @@
 				</div>
 			</div>
 		</div>
-
-		<!-- <div id="fh5co-services" class="fh5co-section-gray">
-			<div class="container">
-
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Highlights</h2>
-
-					</div>
-				</div>
-				<div class="container animate-box">
-					<div class="fh5co-video fh5co-bg" style="background-image: url(images/img_bg_3.jpg); ">
-						<a href="https://www.youtube.com/watch?v=ZcHQgNyS_IE" class="popup-vimeo"><i
-								class="icon-video2"></i></a>
-						<div class="overlay"></div>
-					</div>
-				</div>
-			</div>
-
-		</div> -->
 		<div id="fh5co-wished-box" class="fh5co-section-gray">
 			<div class="container">
 				<div style="height: 150px;"></div>
@@ -329,11 +308,10 @@
 							<div class="gallery-cell" style="background-image: url(images/W2.png);"></div>
 							<div class="gallery-cell" style="background-image: url(images/W3.png);"></div>
 							<div class="gallery-cell" style="background-image: url(images/W4.png);"></div>
-							<div class="gallery-cell" style="background-image: url(images/W5.png);"></div>
 						</div>
 						<div style="height: 30px;"></div>
 						<div class="text-center mt-2 mb-2">
-							<button id="btn-greetings" class="btn btn-primary">Greetings</button>
+							<button id="btn-greetings" class="btn btn-primary">Gửi lời chúc Phúc</button>
 						</div>
 						<div style="height: 60px;"></div>
 					</div>
@@ -509,22 +487,6 @@
 
 			// Get the target content to scroll to
 			const targetContent = document.getElementById("fh5co-gallery");
-
-			// Add event listener to the button
-			button.addEventListener("click", (e) => {
-				// Scroll to the target content with smooth scrolling
-				e.preventDefault()
-				e.stopPropagation()
-				$('body').removeClass('offcanvas');
-				$('.js-fh5co-nav-toggle').removeClass('active');
-				targetContent.scrollIntoView({ behavior: "smooth" });
-			});
-		});
-		document.addEventListener("DOMContentLoaded", () => {
-			const button = document.getElementById("highlights-btn");
-
-			// Get the target content to scroll to
-			const targetContent = document.getElementById("fh5co-services");
 
 			// Add event listener to the button
 			button.addEventListener("click", (e) => {

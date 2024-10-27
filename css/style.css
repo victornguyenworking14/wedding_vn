@@ -431,10 +431,8 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-bottom: 10px;
   }
 }
-iframe {
-  z-index: 3; /* Ensure iframe stays above everything else */
-  pointer-events: auto; /* Make sure the iframe itself is clickable */
-}
+
+
 #fh5co-counter .event-wrap h3,
 #fh5co-event .event-wrap h3 {
   font-size: 14px;
@@ -669,6 +667,12 @@ iframe {
 }
 
 #fh5co-wished-box .gallery-cell {
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px; /* Bo góc 15px */
+  box-shadow: inset 10px 1px 20px 20px rgb(245 245 245); /* Tạo bóng mờ */
+  overflow: hidden; /* Đảm bảo ảnh bị cắt theo bo góc */
+  height: 300px; /* Chiều cao của mỗi ảnh */
   height: 363px;
 }
 /* Adjust for mobile */
